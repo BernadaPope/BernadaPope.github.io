@@ -1,0 +1,47 @@
+body {
+    background-color: gray;
+}
+
+nav {
+    color:aquamarine;
+}
+
+h1 {
+    color:aquamarine;
+}
+
+a {
+    color:aquamarine;
+}
+
+
+
+a:hover {
+    color:black;
+}
+
+a:visited {
+    color:black;
+}
+
+.nav-list{
+
+    display: flex;
+    gap:1rem;
+
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.nav-list li {
+    width: max-content;
+}
+/* article {
+    width: 70px;
+    height: 300px;
+    border: 1px solid;
+    display: flex;
+    flex-wrap: wraparound;
+    align-content: center-;
+}  */
