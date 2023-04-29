@@ -1,5 +1,6 @@
 * {
   color: #9c510c;
+  font-family: sans-serif;
 }
 body {
   background-color: #c4bdac;
@@ -76,4 +77,3 @@ h4 {
   margin: 0;
   gap: 2 rem;
 }
-
