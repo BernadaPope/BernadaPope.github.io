@@ -1,47 +1,79 @@
+* {
+  color: #9c510c;
+}
 body {
-    background-color: gray;
+  background-color: #c4bdac;
+}
+
+html {
+  color-scheme: dark light;
+}
+
+.wrapper {
+  max-width: 50rem;
+  margin-inline: auto;
+  padding-inline: 1rem;
 }
 
 nav {
-    color:aquamarine;
+  color: #9c510c;
+  font-family: sans-serif;
 }
 
 h1 {
-    color:aquamarine;
+  color: #9c510c;
+  font-family: sans-serif;
+  font-size: 70px;
+  text-align: center;
 }
 
 a {
-    color:aquamarine;
+  color: #9c510c;
 }
 
-
-
 a:hover {
-    color:black;
+  color: black;
 }
 
 a:visited {
-    color:black;
+  color: black;
 }
 
-.nav-list{
-
-    display: flex;
-    gap:1rem;
-
-    margin: 0;
-    padding: 0;
-    list-style: none;
+.nav-list {
+  display: flex;
+  gap: 1rem;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
 .nav-list li {
-    width: max-content;
+  width: max-content;
+  font-size: 20px;
+  font-family: sans-serif;
 }
-/* article {
-    width: 70px;
-    height: 300px;
-    border: 1px solid;
-    display: flex;
-    flex-wrap: wraparound;
-    align-content: center-;
-}  */
+
+h2 {
+  font-size: 30px;
+  font-family: sans-serif;
+}
+
+h3 {
+  font-size: 30px;
+  font-family: sans-serif;
+}
+
+h4 {
+  font-size: 30px;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.projects {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  gap: 2 rem;
+}
+
