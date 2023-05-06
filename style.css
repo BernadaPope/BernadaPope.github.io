@@ -72,8 +72,12 @@ h4 {
 }
 
 .projects {
-  display: flex;
-  padding: 0;
-  margin: 0;
-  gap: 2 rem;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.projects p,
+img {
+  justify-self: center;
 }
